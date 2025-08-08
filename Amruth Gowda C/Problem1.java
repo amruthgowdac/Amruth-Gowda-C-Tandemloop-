@@ -18,16 +18,16 @@ class Calculator {
 			break;
 			
 		case "subtraction":
-			System.out.println("Result: " + (a+b));
+			System.out.println("Result: " + (a-b));
 			break;
 			
 		case "multiplication":
-			System.out.println("Result: " + (a+b));
+			System.out.println("Result: " + (a*b));
 			break;
 			
 		case "division":
 			if(b!=0) {
-				System.out.println("Result: " + (a+b));
+				System.out.println("Result: " + (a/b));
 			} else {
 				System.out.println("Error: Division by zero is not allowed.");
 			}
@@ -56,4 +56,5 @@ public class Problem1 {
 		
 		cal.mathOperation();
 	}
+
 }
